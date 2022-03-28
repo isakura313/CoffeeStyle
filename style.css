@@ -212,7 +212,7 @@ body {
 }
 
 .main__mugs {
-    max-width: 940px;
+    /* max-width: 940px; */
     margin: 0 auto;
     text-align: center;
     display: grid;
@@ -638,7 +638,7 @@ body {
 .footer {
     margin: 0 auto;
     display: flex;
-    max-width: 940px;
+    /* max-width: 940px; */
     margin-bottom: 62px;
 }
 
@@ -1130,8 +1130,11 @@ body {
         line-height: normal;
    }
 
-   footer {
-       display: none;
+   .footer {
+       display: block !important;
+       /* почему это импортант
+       разберитесь с 
+       */
    }
 
    .main__footer {
